@@ -1,0 +1,8 @@
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: larger;
+    font-weight: 10px;
+    color: black;
+    margin-top: 5px 5px;
+}
