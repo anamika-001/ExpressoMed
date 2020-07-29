@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { SlickCarouselModule } from 'ngx-slick-carousel';
 
 //component
 import { AppRoutingModule } from './app-routing.module';
@@ -30,7 +31,8 @@ import { appRoutes } from './routes';
     BrowserModule,
     AppRoutingModule,
     FormsModule,RouterModule.forRoot(appRoutes),
-    HttpClientModule
+    HttpClientModule,
+    SlickCarouselModule  
   ],
   providers: [],
   bootstrap: [AppComponent]

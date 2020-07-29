@@ -4,7 +4,7 @@
 /* BASIC */
 
 html {
-  background-color: #56baed;
+  background-color:white;
 }
 
 body {
@@ -79,7 +79,7 @@ h2.active {
 
 input[type=button], input[type=submit], input[type=reset]  {
   cursor: pointer;
-  background-color: #56baed;
+  background-color: #1f8aa0;
   border: none;
   color: white;
   padding: 15px 80px;

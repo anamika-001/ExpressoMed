@@ -6,3 +6,12 @@
     color: black;
     margin-top: 5px 5px;
 }
+
+.slick-slider {  
+    width: 90%;  
+    margin: auto;  
+    height: 100%;
+  }
+  img:hover{
+     background-color: darkslategrey;
+  }
