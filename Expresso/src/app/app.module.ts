@@ -16,6 +16,7 @@ import { UserComponent } from './user/user.component';
 import { SignUpComponent } from './user/sign-up/sign-up.component';
 //routes
 import { appRoutes } from './routes';
+import { ChatboxComponent } from './chatbox/chatbox.component';
   
 
 @NgModule({
@@ -25,7 +26,8 @@ import { appRoutes } from './routes';
     FooterComponent,
     HomeComponent,
     UserComponent,
-    SignUpComponent
+    SignUpComponent,
+    ChatboxComponent
   ],
   imports: [
     BrowserModule,
